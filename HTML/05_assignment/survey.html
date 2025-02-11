@@ -7,8 +7,8 @@
 </head>
 <body>
     <main>
-        <form action="" method="POST">
-            <section>
+        <form action="submit.php" method="POST">
+            <div>
                 
                 <label for="fullname">Fullname: </label>
                 <input type="text" name="Fullname" id="fullname">
@@ -16,13 +16,13 @@
                 <label for="email_add">Email Adress: </label>
                 <input type="email" name="email_add" id="email_add">
              
-            </section>
+            </div>
             <section>
-                <p>How satisfied are you with our service?</p>
+                <h4>How satisfied are you with our service?</h4>
                 <input type="radio" id="Vsatisfied" name="Satisfaction" value="Very Satisfied">
                 <label for="Vsatisfied">Very Satisfied</label>
                 <br>
-                <input type="radio" id="satisfied" name="Satisfaction"value="Satisfied">
+                <input type="radio" id="satisfied" name="Satisfaction" value="Satisfied">
                 <label for="satisfied"> Satisfied</label>
                 <br>
                 <input type="radio" id="Neutral" name="Satisfaction" value="Neutral">
@@ -35,7 +35,8 @@
                 <label for="VDissatisfied">Very Dissatisfied</label>  
             </section>
             <section>
-                <p>What features do you value the most?</p>
+                <h4>What features do you value the most?</h4>
+              
                 <input type="checkbox" name="features" id="ease" value="ease of use">
                 <label for="ease">Ease of Use</label>
                 <br>
@@ -45,7 +46,7 @@
                 <input type="checkbox" name="features" id="support" value="Customer Support">
                 <label for="support">Costumer Support</label>
             </section>
-            <section>
+            <div>
                 <label for="description">What best describe you? </label>
                 <select name="description" id="description">
                     <option value="student">Student</option>
@@ -53,9 +54,10 @@
                     <option value="hobbyist">Hobbyist</option>
                     <option value="other">Other</option>
                 </select>
-            </section>
+            </div>
             <section>
-                <p>Additional Feedback:</p>
+                <h4>Additional Feedback: </h4>
+                <!-- <p>Additional Feedback:</p> -->
                 <textarea name="feedback" id="feedback"></textarea>
             </section>
           
