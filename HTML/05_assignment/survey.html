@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form action="" method="POST">
+            <section>
+                
+                <label for="fullname">Fullname: </label>
+                <input type="text" name="Fullname" id="fullname">
+                <br>
+                <label for="email_add">Email Adress: </label>
+                <input type="email" name="email_add" id="email_add">
+             
+            </section>
+            <section>
+                <p>How satisfied are you with our service?</p>
+                <input type="radio" id="Vsatisfied" name="Satisfaction" value="Very Satisfied">
+                <label for="Vsatisfied">Very Satisfied</label>
+                <br>
+                <input type="radio" id="satisfied" name="Satisfaction"value="Satisfied">
+                <label for="satisfied"> Satisfied</label>
+                <br>
+                <input type="radio" id="Neutral" name="Satisfaction" value="Neutral">
+                <label for="Neutral"> Neutral</label>
+                <br>
+                <input type="radio" id="Dissatisfied" name="Satisfaction"  value="Dissatisfied">
+                <label for="Dissatisfied">Dissatisfied</label>
+                <br>
+                <input type="radio" id="VDissatisfied" name="Satisfaction" value="Very Dissatisfied">
+                <label for="VDissatisfied">Very Dissatisfied</label>  
+            </section>
+            <section>
+                <p>What features do you value the most?</p>
+                <input type="checkbox" name="features" id="ease" value="ease of use">
+                <label for="ease">Ease of Use</label>
+                <br>
+                <input type="checkbox" name="features" id="design" value="design">
+                <label for="design">Design</label>
+                <br>
+                <input type="checkbox" name="features" id="support" value="Customer Support">
+                <label for="support">Costumer Support</label>
+            </section>
+            <section>
+                <label for="description">What best describe you? </label>
+                <select name="description" id="description">
+                    <option value="student">Student</option>
+                    <option value="professional">Professional</option>
+                    <option value="hobbyist">Hobbyist</option>
+                    <option value="other">Other</option>
+                </select>
+            </section>
+            <section>
+                <p>Additional Feedback:</p>
+                <textarea name="feedback" id="feedback"></textarea>
+            </section>
+          
+            <input type="submit" value="submit">
+        </form>
+    </main>
+</body>
+<!-- <footer>
+    @
+</footer> -->
+</html>
