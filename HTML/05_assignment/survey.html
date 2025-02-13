@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Sample survey form">
+
+    <title>Survey Form</title>
 </head>
 <body>
+    <header>
+        <h1>Survey Form</h1>
+    </header>
     <main>
-        <form action="submit.php" method="POST">
+        <form action=" " method="POST">
             <div>
                 
                 <label for="fullname">Fullname: </label>
@@ -18,51 +23,48 @@
              
             </div>
             <br>
-            <section>
-                <fieldset>
+            <fieldset>
                 <legend>How satisfied are you with our service?</legend>
                 
-                <input type="radio" id="Vsatisfied" name="Satisfaction" value="Very Satisfied">
-                <label for="Vsatisfied">Very Satisfied</label>
-                <br>
-                <input type="radio" id="satisfied" name="Satisfaction" value="Satisfied">
-                <label for="satisfied"> Satisfied</label>
-                <br>
-                <input type="radio" id="Neutral" name="Satisfaction" value="Neutral">
-                <label for="Neutral"> Neutral</label>
-                <br>
-                <input type="radio" id="Dissatisfied" name="Satisfaction"  value="Dissatisfied">
-                <label for="Dissatisfied">Dissatisfied</label>
-                <br>
-                <input type="radio" id="VDissatisfied" name="Satisfaction" value="Very Dissatisfied">
-                <label for="VDissatisfied">Very Dissatisfied</label> 
+                    <input type="radio" id="Vsatisfied" name="Satisfaction" value="Very Satisfied">
+                    <label for="Vsatisfied">Very Satisfied</label>
+                    <br>
+                    <input type="radio" id="satisfied" name="Satisfaction" value="Satisfied">
+                    <label for="satisfied"> Satisfied</label>
+                    <br>
+                    <input type="radio" id="Neutral" name="Satisfaction" value="Neutral">
+                    <label for="Neutral"> Neutral</label>
+                    <br>
+                    <input type="radio" id="Dissatisfied" name="Satisfaction"  value="Dissatisfied">
+                    <label for="Dissatisfied">Dissatisfied</label>
+                    <br>
+                    <input type="radio" id="VDissatisfied" name="Satisfaction" value="Very Dissatisfied">
+                    <label for="VDissatisfied">Very Dissatisfied</label> 
             </fieldset>
             <br> 
-            </section>
-            <section>
-                <fieldset>
-                    
-                    <legend>What features do you value the most?</legend>
 
-                
-                    <input type="checkbox" name="features" id="ease" value="ease of use">
-                    <label for="ease">Ease of Use</label>
-                    <br>
-                    <input type="checkbox" name="features" id="design" value="design">
-                    <label for="design">Design</label>
-                    <br>
-                    <input type="checkbox" name="features" id="support" value="Customer Support">
-                    <label for="support">Costumer Support</label>
-                </fieldset>
-            </section>
+        
+            <fieldset>
+                    
+                <legend>What features do you value the most?</legend>                
+                        <input type="checkbox" name="features" id="ease" value="ease of use">
+                        <label for="ease">Ease of Use</label>
+                        <br>
+                        <input type="checkbox" name="features" id="design" value="design">
+                        <label for="design">Design</label>
+                        <br>
+                        <input type="checkbox" name="features" id="support" value="Customer Support">
+                        <label for="support">Costumer Support</label>
+            </fieldset>
+         
             <br>
             <div>
                 <label for="description">What best describe you? </label>
                 <select name="description" id="description">
-                    <option value="student">Student</option>
-                    <option value="professional">Professional</option>
-                    <option value="hobbyist">Hobbyist</option>
-                    <option value="other">Other</option>
+                    <option value="student">        Student</option>
+                    <option value="professional">   Professional</option>
+                    <option value="hobbyist">       Hobbyist</option>
+                    <option value="other">          Other</option>
                 </select>
             </div>
             <section>

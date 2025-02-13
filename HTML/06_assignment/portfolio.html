@@ -1,35 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="This is the portfolio of Mikhael Gadiz">
+    <meta name="Description" content="This is the portfolio of Mikhael Gadiz">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <h1>Welcome to My Portfolio</h1>
+        <h1>PORTFOLIO |</h1>
+        <h2>Mikhael C. Gadiz</h2>
+        <nav>
+            <ul>
+                <li><a href="#about-me" id="aboutme">About Me</a></li>
+                <li><a href="#my-projects" id="myprojects">Projects</a></li>
+                <li><a href="#contact" id="contact_1">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="">About Me</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
-    </nav>
+
     <main>
-        <section>
-            <h2>About Me</h2>
-            <p>
-                I find programming very interesting, and I enjoy solving problems related to it.
-                I am comfortable working with Java and love exploring ways to improve my coding skills.
-                Wether it's building applications or tackling challenges, I always
-                strive to learn and grow in the field of technology.
-            </p>
+        
+        <section id="about-me">
+            <div class="div-about">
+                <h2>About Me</h2>
+                <p>
+                    I find programming very interesting, and I enjoy solving problems related to it.
+                    I am comfortable working with Java and love exploring ways to improve my coding skills.
+                    Wether it's building applications or tackling challenges, I always
+                    strive to learn and grow in the field of technology.
+                </p>
+            </div>
+            <img src="profile1.png" alt="my image for the portfolio" id="profile">
         </section>
-        <div>
-            <img src="profile1.png" alt="my image for the portfolio">
-        </div>
-        <section>
+        
+        <section id="my-projects">
             <h2>My Projects</h2>
             <table>
                 <thead>
@@ -42,7 +49,7 @@
                 <tbody>
                     <tr>
                         <td>AquaAI</td>
-                        <td>It is a fish identification app</td>
+                        <td>Aqua AI is a fish identification app that uses machine learning to analyze captured fish images, accurately determining their species and nutrient content.</td>
                         <td>2024</td>
                     </tr>
                     <tr>
@@ -59,58 +66,38 @@
             </table>
         </section>
 
-        <form action="submit.php" method="POST">
+        <form action="" method="POST" id="contact">
 
-            <section>
-                <h2>Contact Me</h2>
+            <h2>Contact Me</h2>
+            <div id="con-info">
                 <label for="fullname">Full Name: </label>
                 <input type="text" name="fullname" id="fullname">
-                <br>
                 <label for="email_add">Email Address: </label>
                 <input type="text" name="email_add" id="email_add">
-            </section>
-
+            </div>
             <fieldset>
                 <legend>How did you hear about this portfolio?</legend>
-                <input type="radio" name="porfolio" id="friend" value="friend">
-                <label for="friend">friend</label>
-                <br>
-                <input type="radio" name="porfolio" id="SocMed" value="Social Media">
-                <label for="SocMed">Social Media</label>
-                <br>
-                <input type="radio" name="porfolio" id="LinkedIn" value="LinkedIn">
-                <label for="LinkedIn">LinkedIn</label>
-                <br>
-                <input type="radio" name="porfolio" id="other" value="other">
-                <label for="other">Other</label>
+                <label><input type="radio" name="porfolio" id="friend" value="friend">Friend</label>
+                <label><input type="radio" name="porfolio" id="SocMed" value="Social Media">Social Media</label>
+                <label><input type="radio" name="porfolio" id="LinkedIn" value="LinkedIn">LinkedIn</label>
+                <label><input type="radio" name="porfolio" id="other" value="other">Other</label>
             </fieldset>
 
             <fieldset>
                 <legend>Skills/Interests</legend>
-                <input type="checkbox" name="AndroidDev" id="AndroidDev" value="Android Development" checked>
-                <label for="AndroidDev">Android Development</label>
-                <br>
-                <input type="checkbox" name="WebDev" id="WebdDev" value="Web Development">
-                <label for="WebdDev">Web Development</label>
-                <br>
-                <input type="checkbox" name="ProbSolve" id="ProbSolve" value="Problem Solving">
-                <label for="AndroidDev">Problem Solving</label>
+                <label><input type="checkbox" name="skills" value="Android Development" checked> Android Development</label>
+                <label><input type="checkbox" name="skills" value="Web Development"> Web Development</label>
+                <label><input type="checkbox" name="skills" value="Problem Solving"> Problem Solving</label>
             </fieldset>
 
-            <br>
             <div>
                 <label for="comments">Comments or Messages: </label>
-                <br>
                 <textarea name="comments" id="comments"></textarea>
             </div>
-            
-            <div>
             <input type="submit" name="submit" id="submit">
-            </div>
         </form>
-
-
     </main>
-    <footer>© 2025</footer>
+    <footer>© MadHatterII 2025</footer>
 </body>
+
 </html>
