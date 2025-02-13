@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Description" content="This is the portfolio of Mikhael Gadiz">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>PORTFOLIO |</h1>
+        <h2>Mikhael C. Gadiz</h2>
+        <nav>
+            <ul>
+                <li><a href="#about-me" id="aboutme">About Me</a></li>
+                <li><a href="#my-projects" id="myprojects">Projects</a></li>
+                <li><a href="#contact" id="contact_1">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="about-me">
+            <div class="div-about">
+                <h2>About Me</h2>
+                <p>
+                    I find programming very interesting, and I enjoy solving problems related to it.
+                    I am comfortable working with Java and love exploring ways to improve my coding skills.
+                    Wether it's building applications or tackling challenges, I always
+                    strive to learn and grow in the field of technology.
+                </p>
+            </div>
+            <img src="profile1.png" alt="my image for the portfolio" id="profile">
+        </section>
+        
+        <section id="my-projects">
+            <h2>My Projects</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Project Name</td>
+                        <td>Description</td>
+                        <td>Year</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>AquaAI</td>
+                        <td>Aqua AI is a fish identification app that uses machine learning to analyze captured fish images, accurately determining their species and nutrient content.</td>
+                        <td>2024</td>
+                    </tr>
+                    <tr>
+                        <td>CIBMS</td>
+                        <td>A booking system that allows user to save booking records</td>
+                        <td>2023</td>
+                    </tr>
+                    <tr>
+                        <td>RHUMS</td>
+                        <td>A desktop application that keeps electronic record of patients</td>
+                        <td>2023</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <form action="" method="POST" id="contact">
+
+            <h2>Contact Me</h2>
+            <div id="con-info">
+                <label for="fullname">Full Name: </label>
+                <input type="text" name="fullname" id="fullname">
+                <label for="email_add">Email Address: </label>
+                <input type="text" name="email_add" id="email_add">
+            </div>
+            <fieldset>
+                <legend>How did you hear about this portfolio?</legend>
+                <label><input type="radio" name="porfolio" id="friend" value="friend">Friend</label>
+                <label><input type="radio" name="porfolio" id="SocMed" value="Social Media">Social Media</label>
+                <label><input type="radio" name="porfolio" id="LinkedIn" value="LinkedIn">LinkedIn</label>
+                <label><input type="radio" name="porfolio" id="other" value="other">Other</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Skills/Interests</legend>
+                <label><input type="checkbox" name="skills" value="Android Development" checked> Android Development</label>
+                <label><input type="checkbox" name="skills" value="Web Development"> Web Development</label>
+                <label><input type="checkbox" name="skills" value="Problem Solving"> Problem Solving</label>
+            </fieldset>
+
+            <div>
+                <label for="comments">Comments or Messages: </label>
+                <textarea name="comments" id="comments"></textarea>
+            </div>
+            <input type="submit" name="submit" id="submit">
+        </form>
+    </main>
+    <footer>© MadHatterII 2025</footer>
+</body>
+
+</html>
