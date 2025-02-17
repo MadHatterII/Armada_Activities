@@ -4,32 +4,31 @@ body {
     padding: 30px;
     display: flex;
     flex-direction: column;
-    height: 95vh;
-    
-  }
-  
-  header {
+
+
+}
+
+header {
     background-color: dodgerblue;
     text-align: center;
     padding: 20px;
-    height: 20vh;
     justify-content: center;
     align-items: center;
     display: flex;
-  }
+}
 
-  
-  .container {
+
+.container {
     display: flex;
-    gap: 40px;
+    gap: 20px;
     padding: 20px;
     border: 1px solid #000;
     flex-grow: 1;
     color: beige;
     font-weight: bold;
-  }
-  
-  .container .left-panel {
+}
+
+.container .left-panel {
     padding: 20px;
     width: 35%;
     display: flex;
@@ -38,46 +37,45 @@ body {
     background-color: rgb(201, 201, 201);
     border-radius: 20px;
     justify-content: space-evenly;
-  }
-  .container .left-panel .box {
-    height: 5vh;
+}
+
+.container .left-panel .box {
+
     display: flex;
     align-items: center;
     justify-content: center;
 
-  }
-  
-  .right-panel {
+}
+
+.right-panel {
     display: flex;
     flex-direction: column;
     gap: 20px;
-  }
-  .right-panel .box{
-    height: 5vh;
-    width: 5vh;
+}
+
+.right-panel .box {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .top-bar, .main-content {
+}
+
+.top-bar,
+.main-content {
     display: flex;
     gap: 10px;
-  }
-  
-  .box {
+}
+
+.box {
     background-color: lightcoral;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
-  }
-  footer{
+}
+
+footer {
     background-color: rgb(255, 30, 30);
     color: white;
-    height: 8vh;
     display: flex;
     align-items: center;
     justify-content: center;
-
-    
-  }
+}

@@ -5,13 +5,12 @@ body {
     flex-direction: column;
     gap: 20px;
     padding: 20px;
-    height: 95vh;
+ 
 }
 
 header {
     background-color: #ffcc00;
     height: 150px;
-
 }
 
 main {
@@ -22,14 +21,14 @@ main {
 
 aside {
     background-color: #9b59b6;
-    height: auto;
     width: 300px;
+    height: 300px;
 }
 
 section {
     background-color: #1abc9c;
-    height: auto;
     width: 876px;
+    height: 300px;
     flex-grow: 1;
 }
 
