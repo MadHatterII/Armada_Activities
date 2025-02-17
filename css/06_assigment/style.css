@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: #7646fa;
+    display: flex;
+    overflow: hidden;
+
+
+}
+
+nav ul {
+
+    flex-wrap: wrap;
+    color: white;
+    list-style-type: none;
+    align-items: center;
+    min-width: 50vh;
+    display: flex;
+    margin-right: 80px;
+    justify-content: space-between;
+}
+
+nav ul li {}
+
+.search-bar {
+    min-width: 20vh;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.search-bar input {
+    background: url(search-icon.png) no-repeat scroll top left;
+    height: 30px;
+    width: 300px;
+    background-color: #6b40e2a8;
+    color: white;
+    border-radius: 10px;
+    border-color: rgba(255, 255, 255, 0.452);
+    padding-left: 40px;
+}
+
+::placeholder {
+    color: white;
+}
+
+main {
+    /* background-image:
+        linear-gradient(180deg, rgba(19, 2, 2, 0.541), rgba(14, 4, 4, 0.925) 85%),
+        radial-gradient(ellipse at top left, rgb(3, 89, 218), transparent 70%),
+        radial-gradient(ellipse at top right, rgba(255, 191, 0, 0.534), transparent 50%),
+        radial-gradient(ellipse at center right, rgba(67, 10, 172, 0.884), transparent 50%),
+        radial-gradient(ellipse at center left, rgba(255, 0, 128, 0.822), transparent 50%); */
+    background-color: rgba(10, 8, 14, 0.911);    
+        
+
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+main img {
+    height: 18vh;
+    width: 20vh;
+
+}
+
+main h1 {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 12mm;
+}
+
+main h1 span {
+    display: block;
+}
+
+main p {
+    color: rgb(173, 169, 169);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 5mm;
+}
+
+main .about span {
+    margin-top: 7px;
+    display: block;
+}
+
+main .buttons .bootstrap-version {
+    height: 14mm;
+    width: 70mm;
+    margin-right: 10px;
+    border-radius: 10px;
+    border-color: rgba(240, 248, 255, 0);
+    background-color: rgba(59, 59, 59, 0.363);
+    color: rgb(173, 169, 169);
+}
+
+main .buttons .docs {
+    height: 14mm;
+    width: 40mm;
+    margin-left: 10px;
+    border-radius: 10px;
+    border-color: rgba(240, 248, 255, 0);
+    background-color: #7646fa;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.docs:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+main .additional-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .additional-links p {
+    display: flex;
+    flex-direction: column;
+    display: inline;
+    color: rgb(173, 169, 169);
+}
+
+main .additional-links p span {
+    display: inline;
+    font-weight: bolder;
+    color: white;
+}
+
+main .additional-links ul {
+    display: flex;
+    gap: 20px;
+    color: rgb(173, 169, 169);
+    text-decoration: underline;
+}
+
+.download:hover,
+.all-releases:hover {
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.tag-icon {
+    height: 55px;
+    width: 55px;
+    background-color: #21173f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.tag-icon p {
+    font-weight: bolder;
+    color: #7646fa;
+    font-size: 6mm;
+}
+
+h2 {
+    color: rgba(255, 255, 255, 0.747);
+    font-size: 9mm;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.jumpstart{
+    font-size: 4.5mm;
+}
+.install-docs{
+    margin-top: 10px;
+    color: rgba(56, 56, 226, 0.774);
+    font-size: 4.5mm;
+    transition: transform 0.3s ease;
+}
+.install-docs:hover{
+    transform: scale(1.1);
+}
