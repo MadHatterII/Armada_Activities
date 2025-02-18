@@ -1,0 +1,199 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    /* outline: 2px dotted red; */
+}
+
+header {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(180deg, rgb(0, 0, 0), rgba(5, 5, 5, 0) 99%);
+
+}
+
+header img {
+    margin-left: 5vh;
+    margin-right: 60vh;
+    height: 55px;
+    width: 120px;
+    
+}
+header nav{
+    padding-right: 90px;
+}
+header nav button,
+.language-selector {
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.822);
+    border-radius: 5px;
+}
+
+.language-selector {
+    background-color: rgba(51, 50, 50, 0.5);
+    margin-right: 20px;
+    border-color: black;
+}
+
+.hero-section form .submit,
+button,
+.language-selector:hover {
+    cursor: pointer;
+}
+
+header nav button,
+.submit {
+    background: rgb(229, 9, 20);
+    color: rgba(255, 255, 255, 0.884);
+    border-radius: 5px;
+}
+
+.hero-section {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.774) 99%),
+        url(images/netflix_background.jpg);
+    height: 70vh;
+    width: 100%;
+}
+
+.hero-content{
+    padding-top: 120px;
+    display: flex;
+    color: rgba(255, 255, 255, 0.849);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.hero-content
+ h1 {
+    font-size: 40px;
+}
+
+.hero-content
+ span {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.for-email {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.hero-content form input, .email {
+    height: 50px;
+    color: rgba(255, 255, 255, 0.808);
+    font-size: 15px;
+    width: 300px;
+    background-color: rgba(58, 57, 57, 0.719);
+    border-color: green;
+}
+.hero-content form .submit, .submit{
+    height: 55px;
+    width: 120px;
+    
+    background-color: rgb(229, 9, 20);
+    border-color: rgb(185, 79, 84)
+}
+main{
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    padding: 50px 80px;
+}
+h3{
+    color: rgba(255, 255, 255, 0.897);
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.image-container{ 
+    display: flex;
+    justify-content: space-evenly;
+    gap:30px;
+    overflow: hidden;
+}
+.image-section img{
+    height: 200px;
+    margin-right: 40px;
+    border-radius: 10px;
+    flex-grow: 1;
+    max-width: 170px;
+}
+.article-container{
+    align-items: baseline;
+    display: flex;
+    color: white;
+}
+.article-container article{
+    background-color: rgb(78, 83, 136);
+    margin: 40px;
+    width: 250px;
+    border-radius: 5px;
+
+}
+main{
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+main ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: nowrap; 
+
+}
+
+main ul li {
+    background-color: #1b253a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+    height: 250px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    flex-shrink: 0; 
+}
+
+main ul li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+main ul li h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+   
+}
+
+main ul li p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.sign-up{
+    margin-top: 40px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
