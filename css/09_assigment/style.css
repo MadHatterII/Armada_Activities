@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+    color: rgba(255, 255, 255, 0.507);
+    /* border: white 1px solid ; */
+}
+
+.line-break {
+    display: block;
+    padding: 7px 0px;
+}
+
+.search-bar {
+    background-image: url(images/icons/search.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    margin-left: 400px;
+    height: 30px;
+    width: 400px;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: transparent;
+    border: .5px rgba(255, 255, 255, 0.603) solid;
+}
+
+body .nav-bar .nav-bar-list {
+    background-color: #25292E;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+body .nav-bar .nav-bar-list li {
+    list-style: none;
+
+}
+
+.nav-bar-list select,
+body .nav-bar .nav-bar-list li a {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.918);
+    border: transparent;
+    font-size: 18px;
+}
+
+.nav-bar-list a {
+    text-decoration: none;
+}
+
+.nav-bar .nav-bar-list li .sign-up {
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* .nav-bar{
+    .nav-bar-list{
+        li{
+            .sign-up{
+                border: 1px solid white;
+                padding: 8px;
+                border-radius: 5px;
+            }
+        }
+
+    }
+} */
+
+main .inside-nav ul {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    background-color: #0D1117;
+}
+
+main {
+    background-color: #0D1117;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .inside-nav ul a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    text-decoration: none;
+
+}
+
+main .inside-nav ul a:hover {
+    padding-bottom: 10px;
+    border-bottom: #3e3ce9 solid 2px;
+}
+
+main .background-hero,
+main .background-hero img {
+    margin-top: 30px;
+    width: 750px;
+}
+
+main .top-rated,
+main .recommendations {
+    padding-left: 20px;
+    margin-top: 0px;
+    border: solid 2px rgba(112, 112, 112, 0.192);
+    width: 730px;
+    margin-bottom: 50px;
+    border-radius: 6px;
+    padding-bottom: 30px;
+    position: relative;
+    height: 25vh;
+}
+
+.IGN {
+    display: inline;
+    padding-top: 15px;
+}
+
+main .top-rated h2,
+.collections1,
+.collections3 {
+    padding: 30px 0px;
+    color: #096bdae7;
+    text-decoration: none;
+}
+
+main .top-rated p {
+    font-size: 17px;
+}
+
+.collections1,
+.collections2,
+.collections3 {
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+main .recommendations .num-sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #111D2F;
+    margin: 20px;
+    position: absolute;
+
+}
+
+main .trend-developer {
+    position: absolute;
+    right: 170px;
+    top: 150px;
+}
+
+.trend-developer ul li {
+    border: .1px solid rgba(255, 255, 255, 0.26);
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    flex-grow: 1;
+    width: 320px;
+    align-items: center;
+    padding: 0px 15px;
+    position: relative;
+}
+
+.trend-developer ul .list-head {
+    height: 60px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: baseline;
+    background: #182029;
+}
+
+.trend-developer ul .list-head .trend-dev {
+    margin-left: 30px;
+    color: rgba(255, 255, 255, 0.801);
+
+}
+
+.trend-developer ul .list-head .trend-dev {
+    position: absolute;
+}
+
+.trend-developer ul .profile-list {
+    display: flex;
+    align-items: baseline;
+    position: relative;
+}
+
+.trend-developer ul .profile-list .profile-pic {
+    height: 90px;
+    margin-top: 10px;
+    border-radius: 180px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 25px;
+}
+
+.trend-developer ul .profile-list h4 {
+    margin-top: 15px;
+    color: #096bdae7;
+    padding-left: 120px;
+}
+
+.trend-developer ul .profile-list p {
+    padding-left: 120px;
+}
+
+.trend-developer ul .profile-list .ign_n {
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
+.trend-developer ul .profile-list .comp {
+    position: absolute;
+    height: 30px;
+    left: 130px;
+    bottom: 20px;
+}
+
+.trend-developer ul .collect {
+    height: 70px;
+    text-decoration: none;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.more-dev {
+    padding-left: 15px;
+    text-decoration: none;
+    color: #3f3ce9c4;
+}
+
+body footer {
+    justify-content: center;
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    background-color: #0D1117;
+
+}
+
+body footer p,
+body footer a {
+    font-size: 15px;
+    padding-right: 18px;
+    text-decoration: none;
+}
