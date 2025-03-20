@@ -1,0 +1,250 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color: rgba(247, 247, 247, 0.685);
+}
+
+.list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #002056;
+    padding: 15px 30px;
+    justify-content: space-between;
+}
+
+
+.sm-logo img {
+    width: 230px;
+    margin-right: 60px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    width: 100%;
+    overflow: hidden; 
+    margin: 0px 20px;
+    border-radius: 5px;
+}
+
+.search-bar {
+    flex: 1;
+    padding: 10px;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    background: white;
+}
+
+
+.search-icon {
+    background: orange;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.search-icon img {
+    width: 20px; 
+    height: 20px;
+}
+
+
+.list li {
+    display: flex;
+    align-items: center;
+
+}
+
+.list a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 100px;
+    
+}
+
+.list a:hover {
+    color: #ffcc00;
+}
+
+
+.cart {
+    display: flex;
+    align-items: center; 
+    gap: 8px; 
+}
+
+.cart img {
+    width: 25px;
+    height: auto;
+    margin-left: 60px;
+}
+
+.cart a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;margin-left: 0;
+}
+.contact{
+    padding-right: 40px;
+}
+
+select{
+    border: none;
+}
+.inside-nav ul{
+    display: flex;
+    list-style: none;
+    padding: 10px 20px;
+}
+.inside-nav ul li{
+    margin: 10px 25px;
+}
+.inside-nav ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.74);
+}
+.banner img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.category-container{
+    padding: 100px 80px;
+}
+.category-container h2{
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+.category-container ul{
+    display: flex;
+}
+.category-container ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.category-container ul li img{
+    border-radius: 180px;
+    width: 90%;
+}
+.category-container ul li p{
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.promo-container ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    background-color: rgb(255, 255, 255);
+}
+.promo-container h2{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.promo-container ul li{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   position: relative;
+   padding-bottom: 100px;
+}
+.promo-container ul li img{
+ width: 300px;
+ margin-left: 5px;
+}
+.promo-container ul li p{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    font-size: .9rem;
+ }
+.promo-container ul li .line-break{
+   font-weight: normal;
+   text-decoration: line-through;
+   color: rgba(0, 0, 0, 0.397);
+}
+.promo-container ul li span{
+    display: block;
+    font-weight: 700;
+    padding: 10px;
+}
+.promo-container ul li .price{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    font-size: 1.2rem;
+}
+.saved{
+    color: red;
+    font-weight: 600;
+    position: absolute;
+    right: 20px;
+    bottom: 40px;
+}
+.contact-us {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact-us ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+} 
+
+.contact-us li {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.contact-us img {
+    width: 60px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+/* .contact-us p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+} */
+
+
+.contact-us span {
+    display: block;
+    
+    font-size: 14px;
+    font-weight: normal;
+    color: #666;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background: #333232;
+    color: white;
+}
+

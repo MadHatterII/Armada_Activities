@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid #0095ff;
+    border: 1px;
 }
 
 body {
@@ -344,5 +344,4 @@ body main .work-here{
     bottom: 0px;
     width: 700px;
     height: 530px;
-
 }

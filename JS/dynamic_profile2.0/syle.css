@@ -1,0 +1,10 @@
+.card,
+.controls-container {
+    width: 18rem;
+    max-width: 200px;
+}
+
+.profileImg {
+    width: 100px;
+    height: 100px;
+}

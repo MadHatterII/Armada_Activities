@@ -1,0 +1,7 @@
+Mikhael C. Gadiz
+
+    event.stopPropagation() is very useful in this example because there is
+    an event listener in the parent of button. If if event.stopPropagation is
+    not used here, the event of the button will also trigger the event of the 
+    parent and may cause unwanted notification like in the example.
+

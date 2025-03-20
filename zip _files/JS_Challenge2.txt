@@ -1,0 +1,43 @@
+1.
+Variable		Value
+inventory	|	["apple", "banana", "cherry", "date", "elderberry"]
+inventory(count)|	[10, 15, 5, 20, 7];
+0		|	"apple"
+1		|	"banana"
+2		|	"cherry"
+3		|	"date"
+4		|	"elderberry"
+	
+2.
+Variable		Value
+words		|	["zebra", "apple", "mango", "cherry", "banana"]
+i		|	0 → 1 → 2 → 3 → 4
+j		|	i+1 → words.length - 1 
+temp		|	words
+
+3.
+
+Variable	|	Value
+uniqueNumbers	|	[]
+1		| 	[8]  
+2		|	[8, 15] 
+3		|	[8, 15, 3]  
+4		|	[8, 15, 3, 12]
+5		|	[8, 15, 3, 12]
+6		|	[8, 15, 3, 12, 19]	
+7		|	[8, 15, 3, 12, 19, 7] 
+8		|	[8, 15, 3, 12, 19, 7] 
+9		|	[8, 15, 3, 12, 19, 7, 10] 
+10		|	[8, 15, 3, 12, 19, 7, 10, 20]    
+11		|	[8, 15, 3, 12, 19, 7, 10, 20, 1]
+12		|	[8, 15, 3, 12, 19, 7, 10, 20, 1, 14]
+
+4.
+Variable		Value
+sideA		|	7
+sideB		|	10
+sideC		|	5
+(A + B > C)	|	true
+(B + C > A)	|	true
+(A + C > B)	|	true
+	

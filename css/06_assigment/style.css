@@ -23,7 +23,7 @@ nav ul {
     justify-content: space-between;
 }
 
-nav ul li {}
+
 
 .search-bar {
     min-width: 20vh;
@@ -101,6 +101,7 @@ main .about span {
     display: block;
 }
 
+
 main .buttons .bootstrap-version {
     height: 14mm;
     width: 70mm;
@@ -115,15 +116,16 @@ main .buttons .docs {
     height: 14mm;
     width: 40mm;
     margin-left: 10px;
+    padding: 17px 15px;
     border-radius: 10px;
     border-color: rgba(240, 248, 255, 0);
     background-color: #7646fa;
     color: white;
-    transition: transform 0.3s ease;
+   
+    text-decoration: none;
 }
 
 .docs:hover {
-    transform: scale(1.1);
     cursor: pointer;
 }
 
