@@ -1,7 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "java/2.Operators",
-        "java/1. Operators",
-        "java/3.BMICalc"
+        "java/Core Concept/1. Conditional Statement",
+        "java/New folder/1. Conditional Statement"
     ]
 }
