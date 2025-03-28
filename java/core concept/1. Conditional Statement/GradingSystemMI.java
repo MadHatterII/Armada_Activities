@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 /**
  * Grading System
  * Mikhael C. Gadiz
@@ -7,7 +6,7 @@ import java.util.Scanner;
 public class GradingSystemMI {
     
     /**
-     * Function to determine the equevalent letter of a grade
+     * method to determine the equevalent letter of a grade
      * returns both the letter and the feedback of the grade
      * @param grade
      * @return

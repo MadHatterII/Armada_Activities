@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 public class RockPaperScissorsMI {
     /**
-     * function that takes the user's choice
+     * method that takes the user's choice
      * @return
      */
     public static char getUserChoice() {
@@ -18,7 +18,7 @@ public class RockPaperScissorsMI {
         return choice;
     }
     /**
-     * function to generate the computers choice
+     * method to generate the computers choice
      * @return
      */
     public static char getComputerChoice() {
@@ -26,7 +26,7 @@ public class RockPaperScissorsMI {
         return choices[new Random().nextInt(3)];
     }
     /**
-     * function that compares the choice of the computer and the user
+     * method that compares the choice of the computer and the user
      * this will determine the winner
      * @param userChoice
      * @param computerChoice
@@ -36,7 +36,6 @@ public class RockPaperScissorsMI {
         if (userChoice == computerChoice) {
             return "It's a tie!";
         }
-
         switch (userChoice + "" + computerChoice) { 
             case "RS", "PR", "SP":
                 return "You win!";

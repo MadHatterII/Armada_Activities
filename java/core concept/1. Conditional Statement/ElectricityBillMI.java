@@ -1,13 +1,11 @@
 import java.util.Scanner;
-
 /**
  * Electricity bill calculator
  * Mikhael C. Gadiz
  */
 public class ElectricityBillMI {
-
     /**
-     * function to calculate the electricity base on the input value
+     * method to calculate the electricity base on the input value
      * returns the calculated bill
      * @param num
      * @return
@@ -30,7 +28,6 @@ public class ElectricityBillMI {
                 num -= 100;
                 bill += num *2.50;
             }
-
         }
         return bill;
     }
